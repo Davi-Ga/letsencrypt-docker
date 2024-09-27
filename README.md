@@ -1,4 +1,3 @@
-
 # letsencrypt-docker
 
 Exemplo de Gerador de Certificados SSL usando Docker e CertiBot
@@ -38,13 +37,13 @@ Este projeto visa simplificar a geração de certificados SSL usando Docker e Ce
 1. Modifique os arquivos de configuração conforme necessário (por exemplo, `docker-compose.yml`, configurações do CertiBot).
 2. Inicie o processo de geração de certificados:
    ```sh
-   docker-compose run certibot generate
+   docker-compose run
    ```
 
 ## Estrutura do Repositório
 
 - `docker-compose.yml`: Arquivo de configuração do Docker Compose.
-- `certibot/`: Diretório contendo as configurações e scripts do CertiBot.
+- `nginx`: Pasta para configuração do Nginx
 
 ## Contribuindo
 
