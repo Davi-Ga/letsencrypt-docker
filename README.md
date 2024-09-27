@@ -45,8 +45,6 @@ Este projeto visa simplificar a geração de certificados SSL usando Docker e Ce
 
 - `docker-compose.yml`: Arquivo de configuração do Docker Compose.
 - `certibot/`: Diretório contendo as configurações e scripts do CertiBot.
-- `docs/`: Arquivos de documentação do projeto.
-- `scripts/`: Scripts auxiliares para configuração e manutenção.
 
 ## Contribuindo
 
